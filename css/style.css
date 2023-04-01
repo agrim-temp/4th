@@ -15,6 +15,7 @@ body {
   text-align: center;
   margin: 50px auto 0 auto;
   font-family: "Sacramento", cursive;
+  color: rgb(134, 6, 70);
 }
 
 #card-front {
@@ -380,8 +381,8 @@ font-family: 'Lobster', cursive;
   -webkit-transform: translateZ(-2px) rotateY(180deg);
           transform: translateZ(-2px) rotateY(180deg);
   pointer-events: none;
-  -webkit-transition: background 1s linear;
-  transition: background 1s linear;
+  -webkit-transition: background 0s linear;
+  transition: background 0s linear;
 }
 
 .polaroid {
@@ -412,8 +413,8 @@ font-family: 'Lobster', cursive;
           backface-visibility: hidden;
   background-position: center;
   background-size: cover;
-  -webkit-animation: fade-in 20s ease-in;
-          animation: fade-in 20s ease-in;
+  -webkit-animation: fade-in 3s ease-in;
+          animation: fade-in 3s ease-in;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
 }
